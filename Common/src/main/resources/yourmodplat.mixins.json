@@ -5,7 +5,16 @@
   "refmap": "yourmod.mixins.refmap.json",
   "package": "yourmod.name.here.mixin",
   "mixins": [
+    "ActionMixin",
+    "CastingHarnessMixin",
+    "FrameEvaluateMixin",
+    "ItemPackagedHexMixin",
+    "ItemStaffMixin",
+    "MsgNewSpellPatternAckMixin",
+    "MsgNewSpellPatternSynMixin",
+    "PlayerMixin"
   ],
   "client": [
+    "LivingEntityRendererMixin"
   ]
 }
